@@ -1,5 +1,7 @@
 /*global SignaturePad: true*/
 angular.module("ngSignaturePad").directive('signaturePad', function ($window) {
+	"use strict";
+
 	var signaturePad, canvas, scope, element, EMPTY_IMAGE = "data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=";
 
 	function calculateHeight($element) {
@@ -19,21 +21,21 @@ angular.module("ngSignaturePad").directive('signaturePad', function ($window) {
 		canvas.attr("width", width);
 	}
 
-	$($window).bind("resize", function () {
-		$scope.$apply(function () {
+	$window.addEventListener("resize", function () {
+		scope.$apply(function () {
 			var img = signaturePad.toDataURL();
 			setCanvasHeightAndWidth();
 			signaturePad.fromDataURL(img);
 		});
-	});
+	}, false);
 
-	$($window).bind("orientationchange", function () {
-		$scope.$apply(function () {
+	$window.addEventListener("orientationchange", function () {
+		scope.$apply(function () {
 			var img = signaturePad.toDataURL();
 			setCanvasHeightAndWidth();
 			signaturePad.fromDataURL(img);
 		});
-	});
+	}, false);
 
 
 	return {

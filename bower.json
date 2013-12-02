@@ -1,0 +1,29 @@
+{
+	"author": "Marco Rinck",
+	"name": "ngSignaturePad",
+	"description": "SignaturePad as an angularJS directive",
+	"version": "0.1.0",
+	"homepage": "https://github.com/marcorinck/ngSignaturePad",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/marcorinck/ngSignaturePad"
+	},
+	"license": "MIT",
+	"main": "./ngSignaturePad.js",
+	"ignore": [
+		"src",
+		"test",
+		"demo",
+		".idea",
+		".jshintrc",
+		"ngSignaturePad.iml",
+		"package.json",
+		"gruntfile.js",
+		"karma.conf.js",
+		"bower.json",
+		".gitignore"
+	],
+	"dependencies": {
+		"angular": "1.2.2"
+	}
+}

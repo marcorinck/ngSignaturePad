@@ -1,0 +1,7 @@
+/**
+ * ngSignaturePad - v0.1.0 - 2013-12-02
+ * https://github.com/marcorinck/ngSignaturePad
+ * Copyright (c) 2013 ; Licensed MIT
+ */
+
+.signature{position:fixed;left:10px;border:1px solid #e8e8e8;background-color:#fff;box-shadow:0 1px 4px rgba(0,0,0,.27),0 0 40px rgba(0,0,0,.08) inset;border-radius:4px}.signature-background .action{margin-left:5px}.signature-background{background-color:#D3D7DC;position:fixed;top:0;left:0;margin:0;padding:0;z-index:1001;width:100%;height:100%}

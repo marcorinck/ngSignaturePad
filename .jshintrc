@@ -1,0 +1,32 @@
+{
+	"curly": true,
+	"eqeqeq": true,
+	"immed": true,
+	"latedef": true,
+	"newcap": true,
+	"noarg": true,
+	"sub": true,
+	"undef": true,
+	"boss": true,
+	"eqnull": true,
+	"unused": true,
+	"strict": true,
+	"bitwise": true,
+	"trailing": true,
+	"regexp": true,
+	"nonew": true,
+	"forin": true,
+	"globals": {
+		"angular": true,
+		"console": true,
+		"describe": true,
+		"it": true,
+		"expect": true,
+		"jasmine": true,
+		"beforeEach": true,
+		"module": true,
+		"inject": true,
+		"jQuery": true,
+		"require": true
+	}
+}
