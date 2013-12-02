@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="237ab139-6817-463e-96d4-8e65f416e2f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/SignaturePadTest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngSignaturePad.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngSignaturePad.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngSignaturePad.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SignaturePadDirective.js" afterPath="$PROJECT_DIR$/src/SignaturePadDirective.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ngSignaturePad.iws" />
@@ -107,10 +95,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ngSignaturePad.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ngSignaturePad.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ngSignaturePad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1491395" vertical-offset="601" max-vertical-offset="1411">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="601" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10863">
               <folding />
             </state>
           </provider>
@@ -147,15 +144,6 @@
         <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="58" selection-start="110" selection-end="110" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -443,17 +431,21 @@
       <changelist id="237ab139-6817-463e-96d4-8e65f416e2f8" name="Default" comment="" />
       <created>1385991565831</created>
       <updated>1385991565831</updated>
-      <workItem from="1385991593679" duration="1984000" />
+      <workItem from="1385991593679" duration="2004000" />
     </task>
     <task id="LOCAL-00001" summary="Introducing LICENSE">
       <created>1385992510948</created>
       <updated>1385992510948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Indroducing build system">
+      <created>1385993613034</created>
+      <updated>1385993613034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1984000" />
+    <option name="totallyTimeSpent" value="2004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1018" extended-state="6" />
@@ -505,7 +497,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Introducing LICENSE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introducing LICENSE" />
+    <MESSAGE value="Indroducing build system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Indroducing build system" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -623,7 +616,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ngSignaturePad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1491395" vertical-offset="601" max-vertical-offset="1411">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="601" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10863">
           <folding />
         </state>
       </provider>
